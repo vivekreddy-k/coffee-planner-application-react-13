@@ -1,0 +1,145 @@
+/* Write your code here. */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.app-header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 40px 20px 50px;
+}
+@media screen and (min-width: 768px) {
+  .app-header {
+    align-items: flex-end;
+    width: 100%;
+  }
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .header-content {
+    align-items: flex-start;
+    width: 50%;
+  }
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 800;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.header-description {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.coffee-body-section {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .coffee-body-section {
+    padding: 30px 80px 30px 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .coffee-body-section {
+    padding: 50px 100px 50px 100px;
+  }
+}
+.coffee-planner-question-list {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.create-button {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding: 8px 20px 8px 20px;
+  border-width: 0px;
+  border-radius: 8px;
+  background-color: #0e8684;
+  min-width: 100px;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .create-button {
+    font-size: 15px;
+  }
+}
+
+.summary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e353d;
+  border: 1px solid #7c2d12;
+  border-radius: 12px;
+  margin-top: 24px;
+  padding-top: 14px;
+  padding-right: 24px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  max-width: 769px;
+  align-self: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .summary-container {
+    margin-top: 32px;
+  }
+}
+
+.summary {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .summary {
+    font-size: 24px;
+  }
+}
+
+.selected-value {
+  color: #0e8684;
+}
