@@ -5,7 +5,7 @@ In this assignment let's build a **Coffee Planner** by applying the concepts we 
 <br/>
 <div style="text-align: center;">
 
-<img src="https://assets.ccbp.in/frontend/content/react-js/coffee-planner-output.gif" alt="coffee-planner-large-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+https://assets.ccbp.in/frontend/content/react-js/coffee-planner-output.gif
 
 </div>
 <br/>
