@@ -1,4 +1,4 @@
-In this assignment let's build a **Coffee Planner** by applying the concepts we have learned till now.
+In this assignment let's build a **Coffee Planner**
 
 ### Refer to image below:
 
@@ -63,7 +63,7 @@ The app must have the following functionalities
   | optionTitle | String    |
   | description | String    |
 
-- Your task is to complete the implementation of
+- core code files
   - `src/components/CoffeePlanner/index.js`
   - `src/components/CoffeePlanner/index.css`
   - `src/components/CoffeePlannerQuestion/index.js`
@@ -97,11 +97,4 @@ The app must have the following functionalities
 
 - Roboto
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being
->   imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a
->   look at the Cheat Sheets.
+
