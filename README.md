@@ -1,4 +1,5 @@
-## LIVE DEMO :- <a href="https://hungry-poitras-719752.netlify.app/">Coffee Planner Application</a>
+## LIVE DEMO :- <a href="https://coffeeplanner.netlify.app/">Coffee Planner Application</a>
+Live Link : https://coffeeplanner.netlify.app/ </br>
 In this assignment let's build a **Coffee Planner**
 
 ### Refer to image below:
